@@ -3,6 +3,7 @@
     background-color: rgb(236, 236, 236);
     flex-direction: column;
     align-items: center;
+    width: auto;
 }
 .first_page{
     display: flex;
@@ -19,7 +20,7 @@
     align-items: center;
     background-color: rgb(224, 224, 224);
     height: 1400px;
-    width: 100%;
+    width: 110%;
     justify-content: space-evenly;
 }
 .Phrases{
@@ -41,14 +42,14 @@ img{
     width: 300px;
 }
 .fixed{ 
-    position: fixed;
+    top: 0px;
+    position: sticky;
     display: flex;
-    width: 100%;
+    width: 110%;
     height: 40px;
     background-color: rgb(10, 0, 34);
     justify-content: space-evenly;
     align-items: center;
-    top: 0px;
 }
 .menu{
     color: whitesmoke;
